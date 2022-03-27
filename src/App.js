@@ -16,7 +16,7 @@ const App = () => {
         getPlacesData()
             .then((data) => {
                 console.log(data);
-
+  //kya bhai
                 setPlaces(data);
             })
     }, []);
